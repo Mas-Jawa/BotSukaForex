@@ -1,0 +1,24 @@
+{
+  "name": "sukaforex-bot",
+  "version": "1.0.0",
+  "description": "SukaForex - Bot Analisa Trading ICT & SNR (Vercel Version)",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'No build step needed - static files ready'",
+    "deploy": "vercel"
+  },
+  "keywords": [
+    "forex",
+    "trading",
+    "bot",
+    "ict",
+    "snr",
+    "vercel"
+  ],
+  "author": "SukaForex",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}
