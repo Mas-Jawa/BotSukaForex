@@ -1,0 +1,35 @@
+.
+├── .env.example
+├── .gitignore
+├── .vercelignore
+├── DEPLOY_GUIDE.md
+├── GITHUB_DEPLOY.md
+├── GITHUB_STRUCTURE.md
+├── README.md
+├── SUMMARY.md
+├── api
+│   ├── analyze.py
+│   ├── data.py
+│   ├── pairs.py
+│   ├── price.py
+│   ├── requirements.txt
+│   └── utils.py
+├── app.js
+├── frontend
+│   ├── components
+│   │   ├── AnalysisResult.js
+│   │   ├── Chart.js
+│   │   └── PriceTicker.js
+│   └── modules
+│       ├── api.js
+│       ├── router.js
+│       ├── state.js
+│       └── websocket.js
+├── index.html
+├── package.json
+├── styles.css
+├── test_api.py
+├── todo.md
+└── vercel.json
+
+5 directories, 28 files
